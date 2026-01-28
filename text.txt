@@ -1,0 +1,129 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thinesh Rameswaran | Real Estate Advisor</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  background: #fafafa;
+}
+header {
+  background: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+header h1 {
+  margin: 0;
+}
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+.hero {
+  text-align: center;
+}
+.hero h2 {
+  font-size: 28px;
+}
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 14px 24px;
+  background: #0a7cff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.features, .properties {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+}
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  background: #fff;
+  border-top: 1px solid #eee;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Thinesh Rameswaran</h1>
+  <p>Real Estate Advisor | Malaysia</p>
+</header>
+
+<section class="hero">
+  <h2>Helping Buyers & Investors Make Confident Property Decisions</h2>
+  <p>Honest advice, clear explanations, and long-term thinking.</p>
+  <a class="btn" href="https://wa.me/601112141288">WhatsApp Me</a>
+</section>
+
+<section>
+  <h2>Why Work With Me</h2>
+  <div class="features">
+    <div class="card">Transparent & honest recommendations</div>
+    <div class="card">Buyer & investor focused approach</div>
+    <div class="card">No pressure, no confusion</div>
+    <div class="card">Long-term value mindset</div>
+  </div>
+</section>
+
+<section>
+  <h2>Featured Properties</h2>
+  <div class="properties">
+    <div class="card">
+      <h3>New Residential Project</h3>
+      <p>Strategic location • Suitable for own stay</p>
+      <a class="btn" href="https://wa.me/601112141288">Enquire</a>
+    </div>
+    <div class="card">
+      <h3>Investor-Friendly Development</h3>
+      <p>High demand • Long-term growth</p>
+      <a class="btn" href="https://wa.me/601112141288">Enquire</a>
+    </div>
+    <div class="card">
+      <h3>Land Opportunity</h3>
+      <p>Future potential • Limited supply</p>
+      <a class="btn" href="https://wa.me/601112141288">Enquire</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>About Me</h2>
+  <p>
+    I believe real estate should be built on trust, clarity, and long-term value.
+    If I wouldn’t recommend it for myself, I won’t recommend it to you.
+  </p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>📲 WhatsApp: +6011-1214 1288</p>
+  <a class="btn" href="https://wa.me/601112141288">Start a Conversation</a>
+</section>
+
+<footer>
+  © 2026 Thinesh Rameswaran. All rights reserved.
+</footer>
+
+</body>
+</html>
